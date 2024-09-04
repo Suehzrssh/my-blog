@@ -1,0 +1,33 @@
+.postcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.postPart {
+    width: 1000px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.postPart h1 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.textareaP {
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+    text-align: justify;
+    text-overflow: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+.usernameP {
+    opacity: .5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    width: 97%;
+    text-align: right;
+}
