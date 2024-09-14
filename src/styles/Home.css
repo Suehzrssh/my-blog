@@ -3,6 +3,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    color: #fff;
 }
 .homeUp {
     width: 100%;
@@ -13,13 +14,13 @@
     align-items: center;
 }
 .homeUp h1 {
-    color: #fdf9f9;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 50px;
     letter-spacing: 1px;
     -webkit-text-fill-color: rgb(68, 62, 62);
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .homeUp h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,11 +28,11 @@
     color: #fff;
     -webkit-text-fill-color: rgb(68, 62, 62);
     -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     letter-spacing: 1px;
 }
 span {
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     padding: 5px;
     border-radius: 5px;
 }
@@ -81,7 +82,7 @@ span {
     font-size: 40px;
     margin-left: 20px;
     cursor: pointer;
-    color: gray;
+    color: rgb(248, 248, 248);
     transition: .5s;
 }
 .delBtn:hover {
@@ -104,7 +105,7 @@ span {
     margin-left: 5px;
     font-size: 11pt;
     font-family:cursive;
-    color: rgb(68, 68, 68);
+    color: rgb(253, 249, 249);
     font-weight: 700;
     opacity: .5;
 }
@@ -137,6 +138,7 @@ span {
     outline: none;
     border: 2px solid white;
     transition: .1s;
+    color: #fff;
 }
 .username {
     font-family: Verdana, Geneva, Tahoma, sans-serif;

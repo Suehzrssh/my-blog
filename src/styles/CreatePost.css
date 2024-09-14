@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 .postContainer {
     width: 500px;
@@ -40,6 +41,7 @@
     padding-left: 10px;
     border-radius: 10px;
     background-color: rgb(20, 20, 20);
+    color: #ffff;
 }
 .desc {
     width: 90%;
@@ -58,6 +60,8 @@
     text-transform: capitalize;
     outline: none;
     border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
 }
 .dateInp {
     position: absolute;
@@ -68,6 +72,7 @@
     top: 350px;
     left: 790px;
     outline: none;
+    color: #fff;
 }
 .post {
     width: 90%;
@@ -88,6 +93,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10pt;
     background-color: rgb(20, 20, 20);
+    color: #fff;
 }
 .submitBtn {
     margin-top: 30px;
@@ -96,12 +102,13 @@
     margin-left: 300px;
     border-radius: 10px;
     cursor: pointer;
-    background-color: blue;
+    background-color: rgb(11, 11, 63);
     transition: .5s all;
     border: none;
+    color: #fff;
 }
 .submitBtn:hover {
-    background-color: rgb(30, 30, 172);
+    background-color: rgb(20, 20, 161);
 }
 .registerLink {
     text-decoration-line: none;

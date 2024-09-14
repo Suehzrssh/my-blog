@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    color: white;
 }
 .registerContainer {
     width: 500px;
@@ -29,7 +30,11 @@
     border-radius: 10px;
     margin-left: 260px;
     transition: .3s;
+    color: white;
 }
 .registerBtn:hover {
     background-color: rgb(24, 161, 24);
+}
+.inputDiv input {
+    color: white;
 }
